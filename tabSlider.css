@@ -13,6 +13,7 @@
     font-size:0;
     position:relative;
     width: 100%;
+    z-index: 99;
     overflow: hidden;
     overflow-x: scroll;
 
