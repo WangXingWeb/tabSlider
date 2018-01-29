@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
     <title>tabSlider</title>
     <link rel="stylesheet" href="tabSlider.css">
     <script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="tabSlider.js"></script>
-    <script src="navfix.js"></script>
 </head>
 <style>
     .outer {
@@ -82,7 +80,7 @@
 </body>
 <script>
     $(function () {
-        init({
+        initTabSlider({
             container: 'tab-slider',
             callback: function (index) {
                 console.log(index);
