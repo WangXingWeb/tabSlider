@@ -3,7 +3,7 @@
  * date:2018/1/22
  */
 function initTabSlider(config) {
-    var startX,startY,presentX,presentY,endX,endY,dir;
+    var startX,startY,presentX,presentY,endX,endY,dir,counter=0;
     var qwidth=$('.'+config.container)[0].offsetWidth; //容器宽度
     var tabs=$(".tab");
     var tabbar=$(".tabbar")[0];
